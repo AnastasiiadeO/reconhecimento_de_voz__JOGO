@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-family: "Saira", sans-serif;
+    --primary-color: #8B185F;
+    --bg-color: #FFDCDC;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 400;
+    margin-top: 20px;  
+}
+h3 {
+    font-size: 2em;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 1px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    font-weight: 200;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.recomecar {
+    background-color: var(--primary-color);
+    color:var(--bg-color);
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.recomecar:hover {
+    background-color: #d22991;
+}
+
+.aviso {
+    margin-top: 10em;
+}
